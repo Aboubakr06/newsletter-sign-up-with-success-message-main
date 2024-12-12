@@ -121,7 +121,7 @@ body {
     width: 100%;
 }
 
-.section1 #submitBtn {
+.section1 #submitBtn , .section2 #dismissBtn{
     text-align: center;
     padding: 1rem;
     width: 100%;
@@ -130,6 +130,29 @@ body {
     font-weight: var(--fw-bold);
     color: var(--clr-neutral-100);
     background-color: var(--clr-neutral-400);
+}
+
+.section2 {
+    display: none;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.section2 h2 {
+    color: var(--clr-neutral-400);
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.section2 span {
+    font-weight: var(--fw-bold);
+    color: var(--clr-neutral-400);
+}
+
+.section2 #dismissBtn {
+    margin-top: 60%;
 }
 
 @media (min-width: 376px) {

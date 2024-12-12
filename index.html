@@ -55,7 +55,7 @@
           </ul>
 
           <form action="">
-            <label for="input">Email address</label><br>
+            <label for="input">Email address</label><br />
             <input
               type="email"
               name="emailInput"
@@ -74,10 +74,16 @@
       <!-- Sign-up form end -->
 
       <!-- Success message start -->
-      <section class="section2" style="display: none">
-        Thanks for subscribing! A confirmation email has been sent to
-        ash@loremcompany.com. Please open it and click the button inside to
-        confirm your subscription. Dismiss message
+      <section class="section2">
+        <div>
+          <img src="./assets/images/icon-success.svg" alt="icon success" />
+          <h2>Thanks for subscribing!</h2>
+          <p>
+            A confirmation email has been sent to <span>ash@loremcompany.com</span>. Please
+            open it and click the button inside to confirm your subscription.
+          </p>
+          <button id="dismissBtn">Dismiss message</button>
+        </div>
       </section>
       <!-- Success message end -->
     </main>
