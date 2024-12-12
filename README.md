@@ -35,11 +35,15 @@ Users should be able to:
 -Mobile version-
 
 ![photo](./design/mobile-design.jpg)
+![photo](./design/mobile-success.jpg)
 
  -Desktop version
 
 ![photo](./design/desktop-design.jpg)
 ![photo](./design/active-states.jpg)
+![photo](./design/error-states.jpg)
+![photo](./design/desktop-success.jpg)
+![photo](./design/desktop-success-active.jpg)
 
 ### Links
 
