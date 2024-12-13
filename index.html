@@ -20,7 +20,7 @@
   <body>
     <main>
       <!-- Sign-up form start -->
-      <section class="section1">
+      <section class="section1" id="section1">
         <picture>
           <source
             media="(min-width: 376px)"
@@ -32,7 +32,7 @@
           />
         </picture>
 
-        <div>
+        <div class="subSection1">
           <h1>Stay updated!</h1>
 
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -54,13 +54,15 @@
             </li>
           </ul>
 
-          <form action="">
-            <label for="input">Email address</label><br />
+          <form>
+            <div class="formFlex">
+              <label for="input">Email address</label>
+              <span id="errorMsg">Valid email required</span>
+            </div>
             <input
-              type="email"
+              type="text"
               name="emailInput"
               id="emailInput"
-              required
               placeholder="email@company.com"
             />
             <input
@@ -74,13 +76,14 @@
       <!-- Sign-up form end -->
 
       <!-- Success message start -->
-      <section class="section2">
+      <section class="section2" id="section2">
         <div>
           <img src="./assets/images/icon-success.svg" alt="icon success" />
           <h2>Thanks for subscribing!</h2>
           <p>
-            A confirmation email has been sent to <span>ash@loremcompany.com</span>. Please
-            open it and click the button inside to confirm your subscription.
+            A confirmation email has been sent to
+            <span>ash@loremcompany.com</span>. Please open it and click the
+            button inside to confirm your subscription.
           </p>
           <button id="dismissBtn">Dismiss message</button>
         </div>
