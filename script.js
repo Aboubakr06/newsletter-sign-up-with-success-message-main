@@ -9,7 +9,7 @@ const confirmEmail = document.getElementById("confirmEmail");
 
 formEl.addEventListener("submit", (e) => {
     e.preventDefault();
-    if(!validateEmail(emailInput.value)){
+    if (!validateEmail(emailInput.value)) {
         errorMsg.style.display = "block";
         emailInput.style.backgroundColor = "hsl(4, 100%, 90%)";
         emailInput.style.borderColor = "hsl(4, 100%, 67%)";
@@ -32,7 +32,8 @@ dismissBtn.addEventListener("click", () => {
     section2.style.display = "none";
 });
 
+/* validate Email function */
 function validateEmail(email) {
     var re = /\S+@\S+\.\S+/;
     return re.test(email);
-  }
+}
