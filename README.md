@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-vUidmICgx1)
 - Live Site URL: [Live Site](https://kaleidoscopic-otter-550bb8.netlify.app/)
 
 ## My process
